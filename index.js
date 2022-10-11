@@ -8,6 +8,7 @@ Vue.createApp({
         }
     },
     methods: {
+        this.result = "";
         looper(message, number) {
             if (number>0){
                 for (let i = 0; i < number; i++)
